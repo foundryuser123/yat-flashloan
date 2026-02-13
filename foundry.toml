@@ -5,10 +5,10 @@ libs = ["lib"]
 solc_version = "0.8.24"
 optimizer = true
 optimizer_runs = 2000000
-
-[profile.default.remappings]
-"@openzeppelin/contracts/" = "lib/openzeppelin-contracts/contracts/"
-"@aave/core-v3/" = "lib/aave-v3-core/"
-"@uniswap/v3-core/contracts/" = "lib/v3-core/contracts/"
-"@uniswap/v3-periphery/contracts/" = "lib/v3-periphery/contracts/"
-"forge-std/" = "lib/forge-std/src/"
+remappings = [
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+    "@aave/core-v3/=lib/aave-v3-core/",
+    "@uniswap/v3-core/contracts/=lib/v3-core/contracts/",
+    "@uniswap/v3-periphery/contracts/=lib/v3-periphery/contracts/",
+    "forge-std/=lib/forge-std/src/"
+]
