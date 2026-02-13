@@ -17,7 +17,22 @@
       "rev": "ecd2ca2cd7cac116f7a37d0e474bbb3d7d5e1c4d"
     }
   },
+  "lib/protocol-v3": {
+    "tag": {
+      "name": "v1.0.0",
+      "rev": "ae054fdde5f463d8c0244e4e4e1900d11defb040"
+    }
+  },
   "lib/v3-core": {
-    "rev": "d8b1c635c275d2a9450bd6a78f3fa2484fef73eb"
+    "tag": {
+      "name": "v1.0.0",
+      "rev": "e3589b192d0be27e100cd0daaf6c97204fdb1899"
+    }
+  },
+  "lib/v3-periphery": {
+    "tag": {
+      "name": "v1.0.1",
+      "rev": "7213d0c4cb31ecec3ef8602ecdc598dcff05086c"
+    }
   }
 }
